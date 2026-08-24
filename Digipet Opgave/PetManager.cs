@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
@@ -87,8 +87,13 @@ namespace Digipet_Opgave
                 }
                 pet.Update();
                 {
-
-
+                    // update health 
+                    // if hunger < 20 
+                    // health--2 
+                    // if happennise < 20 
+                    // attack--2
+                    // Timer to each update
+                    // Hunger --1 with timer
 
                 }
                 if (choice != "0")

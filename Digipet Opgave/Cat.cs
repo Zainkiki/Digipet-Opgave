@@ -11,6 +11,7 @@ namespace Digipet_Opgave
         public int Hunger;
         public int Happiness;
         public int Health;
+        public int AttackPower;
 
         public Cat(string name)
         {
@@ -18,6 +19,7 @@ namespace Digipet_Opgave
             Hunger = 50;
             Happiness = 50;
             Health = 100;
+            AttackPower = 13;
         }
 
 
