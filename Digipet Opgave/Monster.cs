@@ -7,7 +7,6 @@ namespace Digipet_Opgave
     class Monster
     {
 
-
         public string Name;
         public int HP;
         public int AttackPower;

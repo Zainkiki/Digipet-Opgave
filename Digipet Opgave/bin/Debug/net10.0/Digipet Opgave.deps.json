@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Digipet Opgave/1.0.0": {
+        "runtime": {
+          "Digipet Opgave.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Digipet Opgave/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
