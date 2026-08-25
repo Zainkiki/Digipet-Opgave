@@ -6,7 +6,7 @@ namespace Digipet_Opgave
 {
     class Monster
     {
-
+        static Random mrnd = new Random();
         public string Name;
         public int HP;
         public int AttackPower;
@@ -14,8 +14,8 @@ namespace Digipet_Opgave
         public Monster(string name)
         {
             Name = name;
-            HP = 300;
-            AttackPower = 25;
+            HP = mrnd.Next(200, 300);
+            AttackPower = mrnd.Next(12, 15);
         }
         // Monsters that have health, Attack, HP
         // Drops chance

@@ -12,3 +12,4 @@ C:\Users\temp\source\repos\Digipet Opgave\Digipet Opgave\obj\Debug\net10.0\refin
 C:\Users\temp\source\repos\Digipet Opgave\Digipet Opgave\obj\Debug\net10.0\Digipet Opgave.pdb
 C:\Users\temp\source\repos\Digipet Opgave\Digipet Opgave\obj\Debug\net10.0\Digipet Opgave.genruntimeconfig.cache
 C:\Users\temp\source\repos\Digipet Opgave\Digipet Opgave\obj\Debug\net10.0\ref\Digipet Opgave.dll
+C:\Users\temp\source\repos\Digipet Opgave\Digipet Opgave\obj\Debug\net10.0\Digipet Opgave.sourcelink.json

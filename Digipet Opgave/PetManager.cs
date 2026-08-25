@@ -44,16 +44,19 @@ namespace Digipet_Opgave
         public static void PromptMenu()
         {
             string choice;
+            
+            Timer timer = new Timer(pet.Update, null, 15000, 15000);
 
             do
             {
                 Console.Clear();
                 Console.WriteLine("=== Pet Actions ===");
                 Console.WriteLine("1. List all of the stats");
-                Console.WriteLine("2. Feed");
-                Console.WriteLine("3. Play");
-                Console.WriteLine("4. Fight");
-                Console.WriteLine("5. Sleep");
+                Console.WriteLine("2. Train");
+                Console.WriteLine("3. Feed");
+                Console.WriteLine("4. Play");
+                Console.WriteLine("5. Fight");
+                Console.WriteLine("6. Sleep");
                 Console.WriteLine("0. Never mind I don't wanna be here");
                 Console.Write("\nYour choice: ");
 
@@ -66,18 +69,22 @@ namespace Digipet_Opgave
                         break;
 
                     case "2":
-                        pet.Feed();
+                        pet.Train();
                         break;
 
                     case "3":
-                        pet.Play();
+                        pet.Feed();
                         break;
 
                     case "4":
-                        pet.Fight();
+                        pet.Play();
                         break;
 
                     case "5":
+                        pet.Fight();
+                        break;
+
+                    case "6":
                         pet.Sleep();
                         break;
 
@@ -85,17 +92,7 @@ namespace Digipet_Opgave
                         Console.WriteLine("Not a valid option. Try again.");
                         break;
                 }
-                pet.Update();
-                {
-                    // update health 
-                    // if hunger < 20 
-                    // health--2 
-                    // if happennise < 20 
-                    // attack--2
-                    // Timer to each update
-                    // Hunger --1 with timer
-
-                }
+                    
                 if (choice != "0")
                 {
                     Console.WriteLine("\nPress any key to go back...");
@@ -104,5 +101,6 @@ namespace Digipet_Opgave
 
             } while (choice != "0");
         }
+        
     }
 }
