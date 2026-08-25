@@ -45,7 +45,7 @@ namespace Digipet_Opgave
         {
             string choice;
             
-            Timer timer = new Timer(pet.Update, null, 15000, 15000);
+            Timer timer = new Timer(pet.Update, null, 10000, 10000);
 
             do
             {
@@ -81,7 +81,8 @@ namespace Digipet_Opgave
                         break;
 
                     case "5":
-                        pet.Fight();
+                        Monster Rat = new Monster("Big poison Rat", 12, 300);
+                        pet.Fight(Rat);
                         break;
 
                     case "6":

@@ -22,7 +22,7 @@ namespace Digipet_Opgave
             AttackPower = 13;
         }
 
-        public void ClampValues()
+        public void ClampValues() // This is to set a limit to how low/Hight the stats can get / I plan to increase to limite by leveling up but thats for later maybe
         {
 
             AttackPower = Math.Clamp(AttackPower, 0, 100);
@@ -31,7 +31,7 @@ namespace Digipet_Opgave
             Happiness = Math.Clamp(Happiness, 0, 100);
         }
 
-        public void Train()
+        public void Train() // a method to increase the pets stats by "training " your pet to incrase some of the stats by a random number()
         {
             AttackPower = AttackPower + rnd.Next(0, 10);
             Hunger = Hunger - rnd.Next(8, 12);
@@ -43,7 +43,7 @@ namespace Digipet_Opgave
             Console.WriteLine("You shoud check your pets stats for a surprise");
         }
 
-        public void Feed()
+        public void Feed() // Same as the other methods above 
         {
 
             Hunger = Hunger + rnd.Next(10, 20);
@@ -52,11 +52,11 @@ namespace Digipet_Opgave
             ClampValues();
 
 
-            Console.WriteLine(Name + "has been fed a rare candy from the streets");
-            Console.WriteLine(Name + "has become fat and lost some of his attakc power");
+            Console.WriteLine(Name + " has been fed a rare candy from the streets");
+            Console.WriteLine(Name + " has become fat and lost some of his attakc power");
         }
 
-        public void Play()
+        public void Play() // Same as the others methods above
         {
 
             Happiness = Happiness + rnd.Next(3, 13);
@@ -67,62 +67,60 @@ namespace Digipet_Opgave
             Console.WriteLine("Played with " + Name);
 
         }
-        public void Print()
+        public void Print() // this is a method that Prints all of the stats to the user
         {
             Console.WriteLine("Hunger: " + Hunger);
             Console.WriteLine("Happiness: " + Happiness);
             Console.WriteLine("Health: " + Health);
             Console.WriteLine("AttackPower: " + AttackPower);
         }
-        public void Fight()
+        public void Fight(Monster monster) // this is where we introduce the monster from the mosnter class to fight our pet with a while loop I gave the monster values under the PetManger class I also added a delay of 2 seceounds between each round
         {
-            if (AttackPower > 30)
+            Console.WriteLine(Name + " and a monster are about to fight");
+            Console.WriteLine("Monster Damage: " + monster.MonsterDamage);
+            Console.WriteLine("Monster HP: "+ monster.MonsterHP);
+
+            while (true)
             {
-                Console.WriteLine(Name +"has returned from fighting monsters");
-                Console.WriteLine(Name +"stats has imporved");
-                Console.WriteLine("He has gaind more EXP // I have yet to add EXP");
-                Console.WriteLine("He has gaind more items // I have yet to add items");
+                Thread.Sleep(2000);
+                monster.MonsterHP -= AttackPower;
 
-                AttackPower = AttackPower + rnd.Next(0, 9);
-                Hunger = Hunger - rnd.Next(1, 16);
-                Happiness = Happiness + rnd.Next(1, 25);
-                Health = Health + rnd.Next(1, 8);
+                Console.WriteLine("OMG " + Name + " Attacks and hits the monster");
+                Console.WriteLine("Current Monster HP: " + monster.MonsterHP);
+
+                if (monster.MonsterHP <= 0)
+                    
+                    break;
+                Hunger = Hunger + rnd.Next(1, 6);
+                Happiness = Happiness + rnd.Next(5, 12);
+
+
+
+                Thread.Sleep(2000);
+                Health -= monster.MonsterDamage;
+                Console.WriteLine("OH NOOO.... " + monster.Name + " Attacked and we got hit");
+                Console.WriteLine("Current Pet HP: " + Health);
+
+                if (Health <= 0)
+                    break;
+                Hunger = Hunger - rnd.Next(4, 8);
+                Happiness = Happiness - rnd.Next(12, 20);
             }
-
-            else if (AttackPower <= 30)
-            {
-                Console.WriteLine(Name + "has returned after a defeat");
-                Console.WriteLine(Name + "stats has decresed");
-                Console.WriteLine(Name + "has lost EXP");
-                Console.WriteLine("Something with broken items or something");
-
-                AttackPower = AttackPower - rnd.Next(3, 12);
-                Hunger = Hunger - rnd.Next(60, 80);
-                Happiness = Happiness - rnd.Next(1, 25);
-                Health = Health - rnd.Next(60, 80);
-            }
-
-            AttackPower = Math.Clamp(AttackPower, 0, 100);
-            Hunger = Math.Clamp(Hunger, 0, 100);
-            Happiness = Math.Clamp(Happiness, 0, 100);
-            Health = Math.Clamp(Health, 0, 100);
-
+            ClampValues();
         }
-        public void Sleep()
+        public void Sleep() 
         {
 
             Hunger = Hunger - rnd.Next(10, 23);
             Happiness = Happiness + rnd.Next(1, 9);
             Health = Health + rnd.Next(40, 80);
 
-            Hunger = Math.Clamp(Hunger, 0, 100);
-            Happiness = Math.Clamp(Happiness, 0, 100);
-            Health = Math.Clamp(Health, 0, 100);
+            ClampValues();
 
 
-            Console.WriteLine(Name + "has gaind more health and Happiness but is now hungry");
+            Console.WriteLine(Name + " has gaind more health and Happiness but is now hungry");
         }
-        public void Update(object? obj)
+        public void Update(object? obj) // this is a method that has a timer whice is called from PetMangaer after each 15 secends or what it ever we set it 2 it will - some of the values and if Hunger is under 20 it will also - from health
         {
 
             Hunger = Hunger - rnd.Next(1, 3);
@@ -132,11 +130,9 @@ namespace Digipet_Opgave
             {
                 Health = Health - rnd.Next(1, 6);
                 Happiness = Happiness - rnd.Next(1, 4);
-                Console.WriteLine(Name + "is very hungry and is losing health");
+                Console.WriteLine(Name + " is very hungry and is losing health");
             }
-            Hunger = Math.Clamp(Hunger, 0, 100);
-            Happiness = Math.Clamp(Happiness, 0, 100);
-            Health = Math.Clamp(Health, 0, 100);
+            ClampValues();
         }
     }
 }
