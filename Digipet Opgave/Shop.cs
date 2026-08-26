@@ -8,7 +8,7 @@ namespace Digipet_Opgave
     {
         // Sell / Buy items 
         // Gold 
-        // In the Menu
+        // add to option menu
 
     }
 }

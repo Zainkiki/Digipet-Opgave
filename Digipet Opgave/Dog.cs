@@ -25,19 +25,19 @@ namespace Digipet_Opgave
         }
 
 
-        public void Train()
+        public void Train() 
         {
-            AttackPower = AttackPower + RNG.random.Next(5, 12);
+            AttackPower = AttackPower + RNG.random.Next(5, 12); // + AttackPower
             Console.WriteLine(Name + " " + "Started tranning and gained more AttackPower");
             Thread.Sleep(2000);
 
-            Hunger = Hunger - RNG.random.Next(30, 40);
+            Hunger = Hunger - RNG.random.Next(30, 40); // - Hunger
             Console.WriteLine(Name + " " + "Is now a bit hungry");
             Thread.Sleep(2000);
 
             Health = Health + RNG.random.Next(2, 4);
 
-            Happiness = Happiness + RNG.random.Next(5, 15);
+            Happiness = Happiness + RNG.random.Next(5, 15); // + Happiness
             Console.WriteLine(Name + " " + "Is now very happy by becoming stronger");
             Thread.Sleep(2000);
             Console.WriteLine("You shoud check Kiwi's stats for a surprise");
@@ -45,14 +45,14 @@ namespace Digipet_Opgave
             ((IPet)this).ClampValues();
         }
 
-        public void Feed()
+        public void Feed() 
         {
             Console.WriteLine(Name + " " + "started eating but didn't like the food");
             Thread.Sleep(2000);
             Console.WriteLine(Name + " " + "left a mess behind needs cleanning");
 
-            Hunger = Hunger + RNG.random.Next(5, 12);
-            Happiness = Happiness - RNG.random.Next(3, 6);
+            Hunger = Hunger + RNG.random.Next(5, 12); // + Hunger
+            Happiness = Happiness - RNG.random.Next(3, 6); // - Happiness
 
             ((IPet)this).ClampValues();
 
@@ -62,8 +62,8 @@ namespace Digipet_Opgave
         {
             Console.WriteLine("You took " + Name + " on a walk");
             Thread.Sleep(2000);
-            Happiness = Happiness + RNG.random.Next(7, 13);
-            Hunger = Hunger - RNG.random.Next(5, 9);
+            Happiness = Happiness + RNG.random.Next(7, 13); // + Happiness
+            Hunger = Hunger - RNG.random.Next(5, 9); // - Hunger
 
             ((IPet)this).ClampValues();
         }
@@ -72,9 +72,9 @@ namespace Digipet_Opgave
         {
             Console.WriteLine(Name + " " + "is now sleeping after a long day");
 
-            Hunger = Hunger - RNG.random.Next(10, 23);
-            Happiness = Happiness + RNG.random.Next(1, 9);
-            Health = Health + RNG.random.Next(40, 80);
+            Hunger = Hunger - RNG.random.Next(10, 23); // - Hunger
+            Happiness = Happiness + RNG.random.Next(1, 9); // + Happiness
+            Health = Health + RNG.random.Next(40, 80); // + Health
 
             ((IPet)this).ClampValues();
         }

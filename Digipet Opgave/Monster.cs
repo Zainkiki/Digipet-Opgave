@@ -9,18 +9,15 @@ namespace Digipet_Opgave
         public string Name;
         public int MonsterDamage;
         public int MonsterHP;
-        public int RewardEXP;
 
 
-        public Monster(string name, int monsterDamage, int monsterHP, int rewardEXP)
+        public Monster(string name, int monsterDamage, int monsterHP)
         {
             Name = name;
             MonsterDamage = monsterDamage;
             MonsterHP = monsterHP;
-            RewardEXP = rewardEXP;
         }
-        // Monsters that have health, Attack, HP
         // Drops chance
-        // Level incrase
+        // Drops Items
     }
 }

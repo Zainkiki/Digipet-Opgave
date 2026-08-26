@@ -87,7 +87,7 @@ namespace Digipet_Opgave
                         break;
 
                     case "6":
-                        Monster Rat = new Monster("Big poison Rat", 12, 300, 1);
+                        Monster Rat = new Monster("Big poison Rat", 12, 300);
                         pet.Fight(Rat);
                         break;
 
