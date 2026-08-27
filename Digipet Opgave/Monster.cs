@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Digipet_Opgave
 {
-    class Monster
+    public class Monster
     {
         public string Name;
         public int MonsterDamage;

@@ -12,6 +12,7 @@ namespace Digipet_Opgave
         public int Health { get; set; }
         public int AttackPower { get; set; }
         public int Level { get; set; }
+        public int Gold { get; set; }
         public bool IsDead { get; set; }
 
         public Cat(string name)
@@ -22,6 +23,7 @@ namespace Digipet_Opgave
             Health = 100;
             AttackPower = 13;
             Level = 1;
+            Gold = 1;
         }
 
         public void Train()

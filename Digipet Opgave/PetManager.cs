@@ -41,7 +41,6 @@ namespace Digipet_Opgave
         }
 
         static IPet pet;
-
         public static void PromptMenu()
         {
             string choice;
@@ -56,9 +55,9 @@ namespace Digipet_Opgave
                 Console.WriteLine("2. Train");
                 Console.WriteLine("3. Feed");
                 Console.WriteLine("4. Play");
-                Console.WriteLine("5. Clean");
-                Console.WriteLine("6. Fight");
-                Console.WriteLine("7. Sleep");
+                Console.WriteLine("5. Fight");
+                Console.WriteLine("6. Sleep");
+                Console.WriteLine("7. Shop");
                 Console.WriteLine("0. Never mind I don't wanna be here");
                 Console.Write("\nYour choice: ");
 
@@ -83,16 +82,16 @@ namespace Digipet_Opgave
                         break;
 
                     case "5":
-                        pet.Clean();
-                        break;
-
-                    case "6":
-                        Monster Rat = new Monster("Big poison Rat", 12, 300);
+                        Monster Rat = new Monster("Big poison Rat", 20, 300);
                         pet.Fight(Rat);
                         break;
 
-                    case "7":
+                    case "6":
                         pet.Sleep();
+                        break;
+
+                    case "7":
+                        Shop.OpenShop(pet);
                         break;
 
                     default:

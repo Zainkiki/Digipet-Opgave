@@ -3,7 +3,7 @@ using Microsoft.VisualBasic;
 
 namespace Digipet_Opgave
 {
-    interface IPet
+    public interface IPet
     {
         public string Name { get; set; }
         public int Hunger { get; set; }
@@ -11,13 +11,14 @@ namespace Digipet_Opgave
         public int Health { get; set; }
         public int AttackPower { get; set; }
         public int Level { get; set; }
+        public int Gold { get; set; }
         public bool IsDead { get; set; }
 
 
 
         public void ClampValues() // a limit to how high and low pets stats can get 
         {
-            AttackPower = Math.Clamp(AttackPower, 0, 100);
+            AttackPower = Math.Clamp(AttackPower, 0, Level * 100);
             Hunger = Math.Clamp(Hunger, 0, 100);
             Health = Math.Clamp(Health, 0, 100);
             Happiness = Math.Clamp(Happiness, 0, 100);
@@ -26,12 +27,11 @@ namespace Digipet_Opgave
         public void Train(); // in Cat/Dog Class
         public void Feed(); // in Cat/Dog Class
         public void Play(); // in Cat/Dog Class
-        public void Clean()
-        {
-            Console.WriteLine("Cleaned for now idk what to do with this yet");
-        }
         public void Sleep(); // Under Cat/Dog Class
-
+        public void RecieveItem(IItem item) 
+        {
+            
+        }
         public void Fight(Monster monster) 
         {
 
