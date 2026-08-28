@@ -11,7 +11,7 @@ namespace Digipet_Opgave
         public int Price { get; set; }
 
 
-        public StarterWeapon(string name, int maximumdamage, int price)
+        public StarterWeapon(string name, int maximumdamage, int price) // this is the last comment I will leave SIU 
         {
             Name = name;
             Damage = maximumdamage;

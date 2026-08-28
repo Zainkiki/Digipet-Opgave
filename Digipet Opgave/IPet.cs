@@ -81,11 +81,6 @@ namespace Digipet_Opgave
             }
             ClampValues();
         }
-        void ClampMonsterValues()
-        {
-
-        }
-
 
         public void Die() // a method to shut down the whole console 
         {

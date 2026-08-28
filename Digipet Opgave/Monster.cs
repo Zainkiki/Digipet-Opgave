@@ -9,7 +9,7 @@ namespace Digipet_Opgave
         public string Name;
         public int MonsterDamage;
         public int MonsterHP;
-        public Monster(string name, int monsterDamage, int monsterHP)
+        public Monster(string name, int monsterDamage, int monsterHP) // wanted to add items that can drope depending on a % but didnøt have time
         {
             Name = name;
             MonsterDamage = monsterDamage;

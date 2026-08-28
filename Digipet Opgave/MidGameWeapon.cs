@@ -11,7 +11,7 @@ namespace Digipet_Opgave
         public int Price { get; set; }
 
 
-        public MidGameWeapon(string name, int maximumdamage, int price)
+        public MidGameWeapon(string name, int maximumdamage, int price) // hella boring 
         {
             Name = name;
             Damage = maximumdamage;

@@ -27,7 +27,7 @@ namespace Digipet_Opgave
             Gold = 1;
         }
 
-        public void Train()
+        public void Train() // Cat train, cat strong, cat hungry, cat healty, cat sad mhm mhm
         {
             AttackPower = AttackPower + RNG.random.Next(5, 12);
             Console.WriteLine(Name + " " + "Started tranning and gained more AttackPower");
@@ -44,10 +44,10 @@ namespace Digipet_Opgave
             Thread.Sleep(500);
             Console.WriteLine("You shoud check Kiwi's stats for a surprise");
 
-            ((IPet)this).ClampValues();
+            ((IPet)this).ClampValues(); // Clamping the values can be seen under Ipet
         }
 
-        public void Feed() 
+        public void Feed() // Cat eat, cat happy, cat fat tho, cat lose power!
         {
             Console.WriteLine(Name + " " + "Has started eating and will not stop");
             Thread.Sleep(500);
@@ -62,7 +62,7 @@ namespace Digipet_Opgave
 
         }
 
-        public void Play()
+        public void Play() // Cat play, cat hunngry and I wanted to add where U can clean after the pets but I forgot and now its 2 late 
         {
             Console.WriteLine("You played with " + Name + " using cat toys");
             Thread.Sleep(500);
@@ -74,7 +74,7 @@ namespace Digipet_Opgave
             ((IPet)this).ClampValues();
         }
 
-        public void Sleep() 
+        public void Sleep() // Cat sleep, cat healty, cat happy, cat hungry
         {
             Console.WriteLine(Name + " " + "is now sleeping after a long day");
 

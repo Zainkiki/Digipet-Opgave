@@ -6,7 +6,7 @@ namespace Digipet_Opgave
 {
     public static class Shop
     {
-        public static void OpenShop(IPet pet)
+        public static void OpenShop(IPet pet) // remember to Make a shop where the user cna buy items depending on their elvel and Gold 
         {
             string choiceW;
 
@@ -25,7 +25,7 @@ namespace Digipet_Opgave
                 switch (choiceW)
                 {
                     case "1":
-                        StarterWeapon sWeapon = new StarterWeapon("Rusty Sword", 12, 1 );
+                        StarterWeapon sWeapon = new StarterWeapon("Rusty Sword", 12, 1 ); // first item stats can be changed here 
                         Console.WriteLine("Hello there youø're new here I see");
                         Thread.Sleep(1000);
                         Console.WriteLine("Take this as a welcome gift: " + sWeapon.Name);
@@ -34,9 +34,9 @@ namespace Digipet_Opgave
                         break;
 
                     case "2":
-                        if (pet.Level >= 5 && pet.Gold == 300)
+                        if (pet.Level >= 5 && pet.Gold == 300)// if the suer is level 5 and has 150 or more he can buy this item
                         {
-                            MidGameWeapon mWeapon = new MidGameWeapon("Great Sword", 35, 100);
+                            MidGameWeapon mWeapon = new MidGameWeapon("Great Sword", 35, 100); //statts change here
                             Console.WriteLine("You have just bought a great Sword!");
                             Thread.Sleep(1000);
                             Console.WriteLine("Earn more gold and come back to buy the best Sword ever");
@@ -50,9 +50,9 @@ namespace Digipet_Opgave
                         break;
 
                     case "3":
-                        if (pet.Level >= 20 && pet.Gold == 1000)
+                        if (pet.Level >= 20 && pet.Gold == 1000) // level 20 and 1000 gold 
                         {
-                            EndGameWeapon eWeapon = new EndGameWeapon("Ultra Sword", 10000000, 100);
+                            EndGameWeapon eWeapon = new EndGameWeapon("Ultra Sword", 10000000, 100); //stats change here
                             Console.WriteLine("You now have earned the rights to own the strongest sword ever!");
                             Thread.Sleep(1000);
                             Console.WriteLine("With this sword you can one shot any monster!");
