@@ -9,8 +9,6 @@ namespace Digipet_Opgave
         public string Name;
         public int MonsterDamage;
         public int MonsterHP;
-
-
         public Monster(string name, int monsterDamage, int monsterHP)
         {
             Name = name;

@@ -14,10 +14,9 @@ namespace Digipet_Opgave
             {
                 Console.Clear();
                 Console.WriteLine("=== Items Shop ===");
-                Console.WriteLine("1. Starter Weapon");
-                Console.WriteLine("2. Buy MidGameWeapon");
-                Console.WriteLine("3. Buy EndGameWeapon");
-                Console.WriteLine("4. Sell");
+                Console.WriteLine("1. Welcome Gift");
+                Console.WriteLine("2. Level 5 Gift");
+                Console.WriteLine("3. Level 20 Gift");
                 Console.WriteLine("0. I will be back!");
                 Console.Write("\nYour choice: ");
 
@@ -35,23 +34,35 @@ namespace Digipet_Opgave
                         break;
 
                     case "2":
-                        MidGameWeapon mWeapon = new MidGameWeapon("Great Sword", 35, 100);
-                        Console.WriteLine("You have just bought a great Sword!");
-                        Thread.Sleep(1000);
-                        Console.WriteLine("Earn more gold and come back to buy the best Sword ever");
-                        pet.RecieveItem(mWeapon);
+                        if (pet.Level >= 5 && pet.Gold == 300)
+                        {
+                            MidGameWeapon mWeapon = new MidGameWeapon("Great Sword", 35, 100);
+                            Console.WriteLine("You have just bought a great Sword!");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("Earn more gold and come back to buy the best Sword ever");
+                            pet.RecieveItem(mWeapon);
+                            pet.Gold = pet.Gold - 150;
+                        }
+                        else
+                        {
+                            Console.WriteLine("To buy this Sword you would need to reach level 5 and pay 150 gold");
+                        }
                         break;
 
                     case "3":
-                        EndGameWeapon eWeapon = new EndGameWeapon("Ultra Sword", 10000000, 100);
-                        Console.WriteLine("You now have earned the rights to own the strongest sword ever!");
-                        Thread.Sleep(1000);
-                        Console.WriteLine("With this sword you can one shot any monster!");
-                        pet.RecieveItem(eWeapon);
-                        break;
-
-                    case "4":
-                        Console.WriteLine("I DIDN'T HAVE TIME");
+                        if (pet.Level >= 20 && pet.Gold == 1000)
+                        {
+                            EndGameWeapon eWeapon = new EndGameWeapon("Ultra Sword", 10000000, 100);
+                            Console.WriteLine("You now have earned the rights to own the strongest sword ever!");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("With this sword you can one shot any monster!");
+                            pet.RecieveItem(eWeapon);
+                            pet.Gold = pet.Gold - 1000;
+                        }
+                        else
+                        {
+                            Console.WriteLine("To buy this Sword you would need to reach level 20 and pay 1000 gold");
+                        }
                         break;
 
                     default:

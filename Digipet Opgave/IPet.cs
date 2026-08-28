@@ -24,7 +24,6 @@ namespace Digipet_Opgave
             Health = Math.Clamp(Health, 0, Level * 100);
             Happiness = Math.Clamp(Happiness, 0, Level * 100);
         }
-
         public void Train(); // in Cat/Dog Class
         public void Feed(); // in Cat/Dog Class
         public void Play(); // in Cat/Dog Class
@@ -44,6 +43,8 @@ namespace Digipet_Opgave
         }
         public void Fight(Monster monster) 
         {
+            monster.MonsterDamage = monster.MonsterDamage * Level;
+            monster.MonsterHP = monster.MonsterHP * Level;
 
             //Encounter the mosnters
             Console.WriteLine(Name + " and a monster are about to fight");
@@ -52,7 +53,7 @@ namespace Digipet_Opgave
 
             while (true) // while loop it will keep on running till one of the condations is meet eaither pet dies or monster dies 
             {
-                Thread.Sleep(2000);
+                Thread.Sleep(500);
                 monster.MonsterHP -= GetDamage(); // Pet attacks the mosnter 
 
                 Console.WriteLine("OMG " + Name + " Is attacking like crazy");
@@ -67,7 +68,7 @@ namespace Digipet_Opgave
                     break;
                 }
 
-                Thread.Sleep(2000);
+                Thread.Sleep(500);
                 Health -= RNG.random.Next(monster.MonsterDamage); // Monster attacks the pet with a random number between 0 and 12
                 Console.WriteLine("OH NOOO.... " + monster.Name + " Attacked and we got hit");
                 Console.WriteLine("Current Pet HP: " + Health);
@@ -80,6 +81,12 @@ namespace Digipet_Opgave
             }
             ClampValues();
         }
+        void ClampMonsterValues()
+        {
+
+        }
+
+
         public void Die() // a method to shut down the whole console 
         {
             IsDead = true;
@@ -96,6 +103,7 @@ namespace Digipet_Opgave
             Console.WriteLine("Happiness: " + Happiness);
             Console.WriteLine("Health: " + Health);
             Console.WriteLine("AttackPower: " + AttackPower);
+            Console.WriteLine("Gold: " + Gold);
         }
         public void Update(object? obj) // timer called from PetManger with each round it drops my Hunger and Happiness 
         {

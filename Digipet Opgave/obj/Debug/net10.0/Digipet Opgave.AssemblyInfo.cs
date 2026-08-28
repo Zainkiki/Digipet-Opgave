@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Digipet Opgave")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e28df1340b44b5a407e318c1108ecc6b041598ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4e08d978effda4426d3393ba1e4161bcc65ec95")]
 [assembly: System.Reflection.AssemblyProductAttribute("Digipet Opgave")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Digipet Opgave")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
