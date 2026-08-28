@@ -13,15 +13,16 @@ namespace Digipet_Opgave
         public int Level { get; set; }
         public int Gold { get; set; }
         public bool IsDead { get; set; }
+        IItem EquipedItem { get; set; }
 
 
 
         public void ClampValues() // a limit to how high and low pets stats can get 
         {
             AttackPower = Math.Clamp(AttackPower, 0, Level * 100);
-            Hunger = Math.Clamp(Hunger, 0, 100);
-            Health = Math.Clamp(Health, 0, 100);
-            Happiness = Math.Clamp(Happiness, 0, 100);
+            Hunger = Math.Clamp(Hunger, 0, Level * 100);
+            Health = Math.Clamp(Health, 0, Level * 100);
+            Happiness = Math.Clamp(Happiness, 0, Level * 100);
         }
 
         public void Train(); // in Cat/Dog Class
@@ -30,7 +31,16 @@ namespace Digipet_Opgave
         public void Sleep(); // Under Cat/Dog Class
         public void RecieveItem(IItem item) 
         {
-            
+            EquipedItem = item;
+        }
+
+        public int GetDamage()
+        {
+            if (EquipedItem != null)
+            {
+                return AttackPower + EquipedItem.Damage;
+            }
+            return AttackPower;
         }
         public void Fight(Monster monster) 
         {
@@ -43,9 +53,9 @@ namespace Digipet_Opgave
             while (true) // while loop it will keep on running till one of the condations is meet eaither pet dies or monster dies 
             {
                 Thread.Sleep(2000);
-                monster.MonsterHP -= RNG.random.Next(AttackPower); // Pet attacks the mosnter with a random number from 0 to what ever my attack is 
+                monster.MonsterHP -= GetDamage(); // Pet attacks the mosnter 
 
-                Console.WriteLine("OMG " + Name + " Attacks and body slammed the monster");
+                Console.WriteLine("OMG " + Name + " Is attacking like crazy");
                 Console.WriteLine("Current Monster HP: " + monster.MonsterHP);
 
                 if (monster.MonsterHP <= 0) // if Monster dies the pet gets a level up and stats
@@ -53,6 +63,7 @@ namespace Digipet_Opgave
                     Level = Level + 1;
                     Hunger = Hunger + RNG.random.Next(1, 6);
                     Happiness = Happiness + RNG.random.Next(5, 12);
+                    Gold = Gold + 50;
                     break;
                 }
 
@@ -73,7 +84,7 @@ namespace Digipet_Opgave
         {
             IsDead = true;
 
-            Console.WriteLine("Your pet has died now get out");
+            Console.WriteLine("Your pet is dead now get out");
             Thread.Sleep(2000);
             Environment.Exit(0);
 

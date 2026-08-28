@@ -14,6 +14,7 @@ namespace Digipet_Opgave
         public int Level { get; set; }
         public int Gold { get; set; }
         public bool IsDead { get; set; }
+        public IItem EquipedItem { get; set; }
 
         public Cat(string name)
         {
@@ -21,7 +22,7 @@ namespace Digipet_Opgave
             Hunger = 50;
             Happiness = 50;
             Health = 100;
-            AttackPower = 13;
+            AttackPower = 30;
             Level = 1;
             Gold = 1;
         }

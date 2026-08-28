@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|c:\\users\\temp\\source\\repos\\digipet opgave\\digipet opgave\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|solutionrelative:digipet opgave\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|c:\\users\\temp\\source\\repos\\digipet opgave\\digipet opgave\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|solutionrelative:digipet opgave\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|c:\\users\\temp\\source\\repos\\digipet opgave\\digipet opgave\\ipet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|solutionrelative:digipet opgave\\ipet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|c:\\users\\temp\\source\\repos\\digipet opgave\\digipet opgave\\starterweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|solutionrelative:digipet opgave\\starterweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|c:\\users\\temp\\source\\repos\\digipet opgave\\digipet opgave\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|solutionrelative:digipet opgave\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|c:\\users\\temp\\source\\repos\\digipet opgave\\digipet opgave\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|solutionrelative:digipet opgave\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|c:\\users\\temp\\source\\repos\\digipet opgave\\digipet opgave\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,6 +13,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|c:\\users\\temp\\source\\repos\\digipet opgave\\digipet opgave\\endgameweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|solutionrelative:digipet opgave\\endgameweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|c:\\users\\temp\\source\\repos\\digipet opgave\\digipet opgave\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|solutionrelative:digipet opgave\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|c:\\users\\temp\\source\\repos\\digipet opgave\\digipet opgave\\starterweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|solutionrelative:digipet opgave\\starterweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|c:\\users\\temp\\source\\repos\\digipet opgave\\digipet opgave\\midgameweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,8 +35,20 @@
       "RelativeMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|solutionrelative:digipet opgave\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|c:\\users\\temp\\source\\repos\\digipet opgave\\digipet opgave\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|solutionrelative:digipet opgave\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|c:\\users\\temp\\source\\repos\\digipet opgave\\digipet opgave\\rng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|solutionrelative:digipet opgave\\rng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|c:\\users\\temp\\source\\repos\\digipet opgave\\digipet opgave\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|solutionrelative:digipet opgave\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|c:\\users\\temp\\source\\repos\\digipet opgave\\digipet opgave\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC08B2E-F427-09C7-090C-1D01FF5C1EF0}|Digipet Opgave\\Digipet Opgave.csproj|solutionrelative:digipet opgave\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,50 +58,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "EndGameWeapon.cs",
               "DocumentMoniker": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\EndGameWeapon.cs",
               "RelativeDocumentMoniker": "Digipet Opgave\\EndGameWeapon.cs",
               "ToolTip": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\EndGameWeapon.cs",
               "RelativeToolTip": "Digipet Opgave\\EndGameWeapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-27T06:46:57.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "MidGameWeapon.cs",
               "DocumentMoniker": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\MidGameWeapon.cs",
               "RelativeDocumentMoniker": "Digipet Opgave\\MidGameWeapon.cs",
               "ToolTip": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\MidGameWeapon.cs",
               "RelativeToolTip": "Digipet Opgave\\MidGameWeapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-27T06:46:35.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "StarterWeapon.cs",
               "DocumentMoniker": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\StarterWeapon.cs",
               "RelativeDocumentMoniker": "Digipet Opgave\\StarterWeapon.cs",
               "ToolTip": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\StarterWeapon.cs",
               "RelativeToolTip": "Digipet Opgave\\StarterWeapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-27T06:37:15.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "RNG.cs",
               "DocumentMoniker": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\RNG.cs",
               "RelativeDocumentMoniker": "Digipet Opgave\\RNG.cs",
@@ -114,20 +114,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Dog.cs",
               "DocumentMoniker": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\Dog.cs",
               "RelativeDocumentMoniker": "Digipet Opgave\\Dog.cs",
               "ToolTip": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\Dog.cs",
               "RelativeToolTip": "Digipet Opgave\\Dog.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAswFQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-26T06:47:25.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Monster.cs",
               "DocumentMoniker": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\Monster.cs",
               "RelativeDocumentMoniker": "Digipet Opgave\\Monster.cs",
@@ -140,72 +140,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Items.cs",
               "DocumentMoniker": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\Items.cs",
               "RelativeDocumentMoniker": "Digipet Opgave\\Items.cs",
               "ToolTip": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\Items.cs",
               "RelativeToolTip": "Digipet Opgave\\Items.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T11:28:01.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "Cat.cs",
               "DocumentMoniker": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\Cat.cs",
               "RelativeDocumentMoniker": "Digipet Opgave\\Cat.cs",
               "ToolTip": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\Cat.cs",
               "RelativeToolTip": "Digipet Opgave\\Cat.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAADwv08AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAqwBAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-26T10:15:14.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Shop.cs",
               "DocumentMoniker": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\Shop.cs",
               "RelativeDocumentMoniker": "Digipet Opgave\\Shop.cs",
               "ToolTip": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\Shop.cs",
               "RelativeToolTip": "Digipet Opgave\\Shop.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T11:27:48.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "PetManager.cs",
               "DocumentMoniker": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\PetManager.cs",
               "RelativeDocumentMoniker": "Digipet Opgave\\PetManager.cs",
               "ToolTip": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\PetManager.cs",
               "RelativeToolTip": "Digipet Opgave\\PetManager.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwFcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwGEAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T12:11:45.025Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "IPet.cs",
               "DocumentMoniker": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\IPet.cs",
               "RelativeDocumentMoniker": "Digipet Opgave\\IPet.cs",
               "ToolTip": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\IPet.cs",
               "RelativeToolTip": "Digipet Opgave\\IPet.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAqwBUAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwFQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T06:54:40.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\temp\\source\\repos\\Digipet Opgave\\Digipet Opgave\\Program.cs",
               "RelativeDocumentMoniker": "Digipet Opgave\\Program.cs",

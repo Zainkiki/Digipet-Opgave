@@ -15,6 +15,8 @@ namespace Digipet_Opgave
         public int Level { get; set; }
         public int Gold { get; set; }
         public bool IsDead { get; set; }
+        public IItem EquipedItem { get; set; }
+
 
         public Dog(string name)
         {

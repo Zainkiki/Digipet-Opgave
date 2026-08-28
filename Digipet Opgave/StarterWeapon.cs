@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Digipet_Opgave
 {
-    class StarterWeapon : IItem
+    public class StarterWeapon : IItem
     {
         public string Name { get; set; }
-        public int Damage { get; set; }
+        public int Damage { get; set; } 
         public int Price { get; set; }
 
 

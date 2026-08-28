@@ -4,20 +4,18 @@ using System.Text;
 
 namespace Digipet_Opgave
 {
-    class EndGameWeapon : IItem
+    public class EndGameWeapon : IItem
     {
         public string Name { get; set; }
-        public int Damage { get; set; }
-        public int MinimumDamage { get; set; }
+        public int Damage { get; set; } 
         public int Price { get; set; }
 
 
-        public EndGameWeapon(string name)
+        public EndGameWeapon(string name, int maximumdamage, int price)
         {
             Name = name;
-            Damage = 50;
-            MinimumDamage = 35;
-            Price = 150;
+            Damage = maximumdamage;
+            Price = price;
         }
     }
 }
