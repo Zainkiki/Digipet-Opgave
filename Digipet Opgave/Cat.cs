@@ -23,8 +23,8 @@ namespace Digipet_Opgave
             Happiness = 50;
             Health = 100;
             AttackPower = 13;
-            Level = 1;
-            Gold = 1;
+            Level = 50;
+            Gold = 1000;
         }
 
         public void Train() // Cat train, cat strong, cat hungry, cat healty, cat sad mhm mhm
