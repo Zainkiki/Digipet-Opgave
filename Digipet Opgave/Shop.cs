@@ -52,7 +52,7 @@ namespace Digipet_Opgave
                     case "3":
                         if (pet.Level >= 20 && pet.Gold == 1000) // level 20 and 1000 gold 
                         {
-                            EndGameWeapon eWeapon = new EndGameWeapon("Ultra Sword", 10000000, 100); //stats change here
+                            EndGameWeapon eWeapon = new EndGameWeapon("Ultra Sword", 50, 100); //stats change here
                             Console.WriteLine("You now have earned the rights to own the strongest sword ever!");
                             Thread.Sleep(1000);
                             Console.WriteLine("With this sword you can one shot any monster!");
